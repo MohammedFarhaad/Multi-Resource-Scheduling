@@ -14,6 +14,7 @@ namespace Fhirapis
 {
     public class Appointmentrecord
     {
+        //test
         public string resourceType { get; set; }
         public appointmentType appointmentType { get; set; }
         public List<identifiervalue> identifier { get; set; }
