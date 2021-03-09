@@ -12,7 +12,6 @@ using System.Threading.Tasks;
 
 namespace Fhirapis
 {
-
     public class Appointmentrecord
     {
         public string resourceType { get; set; }
