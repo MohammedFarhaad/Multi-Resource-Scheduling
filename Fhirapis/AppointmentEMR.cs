@@ -100,7 +100,8 @@ namespace Fhirapis
         {
             init(serviceProvider);
             tracingService.Trace("Plugin connection is established");
-
+            System.Threading.Thread.Sleep(20300);
+            
             if (context.InputParameters.Contains("Target") && context.InputParameters["Target"] is Entity)
             {
                 tracingService.Trace("in if statement");
